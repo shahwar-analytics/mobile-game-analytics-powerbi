@@ -112,6 +112,12 @@ It includes:
 
 ![Geography](dashboard/04-geography.png)
 
+## Power BI Data Model
+
+The Power BI model uses four analysis-ready datasets at different levels of detail, connected through a shared Calendar dimension to support consistent date-based analysis.
+
+![Power BI Data Model](dashboard/05-powerbi-data-model.png)
+
 ## Key Findings
 
 The dashboard highlighted several areas worth investigating further.
@@ -168,3 +174,17 @@ The dashboard is powered by DAX measures for metrics including:
 - GameAnalytics
 - Google AdMob
 
+# Dataset Information
+
+The original datasets used in this project are not included in this repository because they contain project-specific business data.
+
+The analysis was performed using aggregated data from Firebase Analytics, GameAnalytics, and Google AdMob.
+
+The project uses four analysis-ready datasets:
+
+- Engagement
+- Player Behaviour
+- Monetization
+- Geography
+
+The repository includes the methodology, dashboard screenshots, Power BI data model, and project report to demonstrate the complete analytics workflow.

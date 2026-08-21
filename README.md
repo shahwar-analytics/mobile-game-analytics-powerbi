@@ -112,11 +112,6 @@ It includes:
 
 ![Geography](dashboard/04-geography.png)
 
-## Power BI Data Model
-
-The Power BI model uses four analysis-ready datasets at different levels of detail, connected through a shared Calendar dimension to support consistent date-based analysis.
-
-![Power BI Data Model](dashboard/05-powerbi-data-model.png)
 
 ## Key Findings
 
@@ -141,6 +136,8 @@ Revenue per player varied across countries. Comparing revenue with active users 
 ## Power BI Data Model
 
 The four datasets have different levels of detail, including daily, weekly, cohort-day, and country-level data.
+
+![Power BI Data Model](dashboard/05-powerbi-data-model.png)
 
 To avoid creating incorrect relationships between unrelated tables, I used a shared Calendar dimension to support consistent date-based filtering across the model.
 
